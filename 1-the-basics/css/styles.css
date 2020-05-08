@@ -5,3 +5,64 @@ header{
 footer{
     background-color: bisque;
 }
+.bg-img{
+    padding-top: 10px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Coat_of_arms_of_Colombia.svg/1200px-Coat_of_arms_of_Colombia.svg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.myFont {
+    font-family: system-ui;
+    font-size: 18px;
+}
+.form-mg {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.resalt:hover{
+    background: rgb(254,221,0);
+    background: linear-gradient(180deg, rgba(254,221,0,0.7483368347338936) 100%, rgba(255,255,255,1) 100%);
+    color: black;
+    padding:10px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+fieldset:hover {
+    background: rgb(16,0,254);
+    background: linear-gradient(180deg, rgba(16,0,254,0.5046393557422969) 100%, rgba(255,255,255,1) 100%);
+    color: white;
+}
+
+fieldset:hover > legend {
+    color: black;
+    font-size: 25px;
+    background: rgb(254,221,0);
+    background: linear-gradient(180deg, rgba(254,221,0,0.7483368347338936) 100%, rgba(255,255,255,1) 100%);
+}
+
+form{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(125,125,125,0.258140756302521) 50%, rgba(0,0,0,0.5270483193277311) 100%);
+}
+
+.footerFont{
+
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+    font-weight:250;
+}
+
+.message {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.message:hover {
+    margin-left: 10%;
+    color: black;
+    font-size: 25px;
+    background: rgb(254,221,0);
+    background: linear-gradient(180deg, rgba(254,221,0,0.7483368347338936) 100%, rgba(255,255,255,1) 100%);
+}
