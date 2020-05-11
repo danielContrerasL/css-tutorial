@@ -1,8 +1,8 @@
 .navMenu{
-    position: absolute;
     border: solid blue 2px;
-    width: 200px;
     box-sizing: border-box;
+    position: absolute;
+    width: 200px;
 }
 
 .myHeadder{
@@ -12,7 +12,6 @@
     color: rgb(255, 255, 255);
     position: sticky;
     top: 0px;
-    
 }
 
 .mySection {
@@ -22,19 +21,19 @@
 }
 
 .myWraper{
-    position: relative;
     box-sizing: border-box;
+    position: relative;
 }
 
 .myFooter {
-    color: white;
     background-color: black;
+    color: white;
     border: #fda917 solid 3px;
     box-sizing: border-box;
+    left: 0px;
+    padding: 10px;
     position: fixed;
     top: 94%;
-    padding: 10px;
-    left: 0px;
     width: 100%;
 }
 
