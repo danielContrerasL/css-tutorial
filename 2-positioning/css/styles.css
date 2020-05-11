@@ -1,0 +1,40 @@
+.navMenu{
+    position: absolute;
+    border: solid blue 2px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.myHeadder{
+    background-color: black;
+    border: green solid 3px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+    
+}
+
+.mySection {
+    border: red solid 3px;
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+
+.myWraper{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.myFooter {
+    color: white;
+    background-color: black;
+    border: #fda917 solid 3px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 94%;
+    padding: 10px;
+    left: 0px;
+    width: 100%;
+}
+
