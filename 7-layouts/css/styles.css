@@ -1,0 +1,86 @@
+.img-container {
+    flex-wrap: wrap;
+   
+}
+
+header {
+    background-color: #323233;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    justify-content: start;
+}
+
+.logo-fire {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.cards {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    display: block;
+}
+
+.banner-container {
+    width: 100%;
+    height: 35%;
+    position: relative;
+    box-sizing: border-box;
+    background-image: url('https://c.wallhere.com/photos/bf/60/cat_blue_eyes_face_animals_eyes-216035.jpg!d');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-img {
+    width: 100% - 10px;
+    height: 100%;
+    color: white;
+    background-color: rgba(102, 63, 0, 0.3);
+    position: absolute;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.card-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 30%;
+    position: relative;
+    box-sizing: border-box;
+    background-image: url('https://new-img.patrika.com/upload/2020/03/04/1800x1200_cats_and_excessive_meowing_ref_guide_5855130_835x547-m.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+}
+.card-info {
+    
+    background-color: rgba(184, 184, 184, 0.5);
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+
+.h1-style {
+    margin-block-end: 0px;
+    margin-block-start: 5px;
+    font-size: 55px;
+}
+.bg-transparent {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(102, 63, 0, 0.3);
+    position: absolute;
+}
+
+
